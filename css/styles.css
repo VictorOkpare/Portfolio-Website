@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* STYLES FOR NAVTAB */
+body{
+    position: relative; 
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #81d8bb;
+  color: #ffffff;
+  position: sticky;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+}
+
+.logo-image {
+  width: 100px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+}
+.logo-image img {
+  width: 100%;
+  height: 100%;
+}
+.logo-image p {
+  z-index: 10;
+  font-size: 25px;
+  margin-left: -20px;
+  margin-top: 17px;
+}
+nav {
+  margin: 0px auto;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 25px;
+  margin-top: 16px;
+  margin-right: 28px;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* STYLES FOR homeSection */
+section{
+    height: 100vh;
+    width: 75%;
+    margin: 0 auto;
+    border-bottom: 1px  solid gray;
+}
+
+.ctn{
+    display: flex;
+    align-items: center;
+    margin: 8% auto;
+    justify-content: center;
+   
+}
+
+.profileImage-ctn {
+    width: fit-content;
+    height:fit-content;
+   
+
+}
+
+.profileImage-ctn img{
+    border-radius: 40%;
+}
+
+.homeSection-Text {
+    width: 545px;
+    margin: 50px;
+    padding: 30px;
+
+}
+.homeSection-Text p{
+    font-size: 8rem;
+}
+.homeSection-Text .p1{
+    font-size: 6rem;
+      
+}
+.homeSection-Text .p2{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.homeSection-Text .p3{
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* RESPONSIVE SECTION */
+@media screen and (max-width: 900px) {
+
+}
