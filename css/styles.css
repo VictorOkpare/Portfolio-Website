@@ -16,7 +16,6 @@ li{
 
 /* STYLES FOR NAVTAB */
 body{
-    position: relative; 
     color: #5f2841;
     font-family: "Oswald", sans-serif;
 }
@@ -121,6 +120,9 @@ section{
 
 
 /* SECTION 2 STYLES */
+.h1{
+    font-size: 30px;
+}
 
 .ctn-2{
     display: flex;
@@ -144,11 +146,13 @@ section{
 }
 .AS-work p{
     font-size: 6rem;
-    color: rgb(163, 6, 66);
+    color: rgb(20, 1, 2);
     font-weight: bolder;
     margin-bottom: 25px;
+   color: rgb(163, 6, 66);
 }
 .AS-work .p1AS{
+
     font-size: 3rem;
     color: #5f2841;
     margin: 10px;
@@ -156,10 +160,33 @@ section{
 .AS-work .p2AS{
     font-size: 2.7rem;
     margin: 10px;
+    color: #c06d53;
 }
 .AS-work .p3AS{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 10px;
+    color: black;
+    
+}
+
+#Acard-img-ctn {
+    width: 350px;
+}
+
+.About-firstPara{
+    font-size: 2rem;
+}
+
+.Avout-list{
+    background-color: #81d8bb;
+    padding: 30px;
+}
+.About-list{
+    border: solid;
+    padding: 12px;
+    border-color: #ffffff;
+    border-radius: 2rem;
+    text-align: center;
 }
 
 /* RESPONSIVE SECTION */

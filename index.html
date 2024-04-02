@@ -13,7 +13,7 @@
 
   </head>
   <body>
-    <header>
+    <header >
       <div class="logo-image">
         <img src="images/whiteLogo.png" alt="Logo of Vgen" />
         <p>Vgen.com</p>
@@ -21,15 +21,15 @@
       <div>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Work</li>
-            <li>About</li>
+          <a href="#home-section"><li>Home</li></a>  
+          <a href="#work-section"><li>Work</li></a> 
+            <a href=""></a><li>About</li></a> 
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section>
+      <section id= "home-section">
         <div class="ctn">
           <div class="profileImage-ctn">
             <img
@@ -41,7 +41,7 @@
             <p>Hello! I'm</p>
             <p class="p1">
               Victor Okpare </p1>
-              <p class="p2">A Software Engineer
+              <p class="p2">A Web Developer
              </p>
             <p class="p3">Founder of Vgen Innovation</p>
             </p>
@@ -49,8 +49,9 @@
         </div>
       </section>
      
-      <section>
-        <div class="ctn-2">
+        <section id="work-section">
+            <h1 style="font-size: 25px;">Check out a few projects we have worked on</h1>
+         <div class="ctn-2">
             <div class="screenshotAS">
             <img
               src="images/Screenshot (3).png"
@@ -67,17 +68,18 @@
             <p class="p3AS">click here to view webpage &#8594;</p>
             </p>
           </div>
-        </div>
-
-        <div class="ctn-2">
-            <div class="screenshotAS">
+         </div>
+        </section>
+        <section>
+         <div class="ctn-2" id="tribute-ctn">
+            <div class="screenshotAS" id="tribute-img-ctn">
             <img
-              src="images/Capture.JPG"
+              src="images/Capture2.JPG"
               alt="Image of Tribute page project"
             />
           </div>
 
-          <div class="AS-work">
+          <div class="AS-work" id="tribute-text-ctn">
             <p class="pAS">
                 Tribute Page</p>
             <p class="p1AS">
@@ -87,43 +89,60 @@
             <p class="p3AS">click here to view webpage &#8594;</p>
             </p>
           </div>
-        </div>
-
-        <div class="ctn-2">
-            <div class="screenshotAS">
+         </div>
+        </section>
+        <section>
+         <div class="ctn-2" id="ctn-2-Acard-ctn">
+            <div class="screenshotAS" id="Acard-img-ctn">
             <img
-              src="images/Screenshot (3).png"
+              src="images/Capture.JPG"
               alt="Images of Animal Trading Card"
             />
           </div>
 
-          <div class="AS-work">
+          <div class="AS-work " id="A-card-text-ctn">
             <p class="pAS">
                 Flamingo Trading Card</p>
             <p class="p1AS">
               Animal Tading Card </p1>
               <p class="p2AS">A beautifully detailed web page card for a flamingo, with insightful details of this beauty nature presents to us.
              </p>
-            <p class="p3AS">click here to view webpage &#8594;</p>
+            <p class="p3AS" >click here to view webpage &#8594;</p>
             </p>
           </div>
-        </div>
+            </div>
+      </section>
+
+      <section>
+        <P class="About-firstPara">Hey there!   I'm Victor Okpare, a passionate web developer with a knack for crafting clean, functional, and visually appealing websites. I bring   years of experience  to the table.
+
+            Whether you're looking to build a brand new website from scratch, revamp an existing one, or  integrate new features, I'm here to help you achieve your online goals.</P>
+            <p class="About-secondPara">What I do:
+            <ul class="Avout-list" >
+            <li class="About-list">Front-End Development: I bring your website's vision to life by translating design mockups into user-friendly and responsive interfaces using HTML, CSS, and JavaScript.</li>
+            <li class="About-list">Back-End Development: (if applicable) I can handle the server-side magic that makes your website tick, ensuring smooth functionality and data management.</li>
+            <li class="About-list"> I'm well-versed in popular CMS platforms like WordPress, allowing you to easily manage your website's content without needing any coding knowledge.</li>
+
+            </ul>
+        </p>
       </section>
       <!-- <section>
-        <h1>Contact</h1>
-      <ul>
-        <li><a href="">Instagram</a></li>
-        <li><a href="">LinkedIn</a></li>
-        <li><a href="">GitHub</a></li>
-        <li><a href="">Email</a></li>
-      </ul>
+      
       </section> -->
 
       
     
     </main>
 
-
+    <footer>
+        <h1>Contact</h1>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">GitHub</a></li>
+          <li><a href="">Email</a></li>
+        </ul>
+    </footer>
   
 
   </body>
