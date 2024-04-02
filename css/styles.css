@@ -175,11 +175,14 @@ section{
 
 .About-firstPara{
     font-size: 2rem;
+    color: #c06d53;
+    font-size: xx-large;
 }
 
 .Avout-list{
     background-color: #81d8bb;
     padding: 30px;
+    color: #c06d53;
 }
 .About-list{
     border: solid;
@@ -187,7 +190,10 @@ section{
     border-color: #ffffff;
     border-radius: 2rem;
     text-align: center;
+    background-color: #ffffff;
+    color: #c06d53;
 }
+
 
 /* RESPONSIVE SECTION */
 @media screen and (max-width: 900px) {
